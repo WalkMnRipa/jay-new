@@ -13,12 +13,8 @@ export default function Header({ onChatToggle }: HeaderProps) {
           <div className="flex items-center space-x-8">
             <div className="flex items-center space-x-2">
               <Sparkles className="h-6 w-6 text-blue-500" />
-              <h1 className="text-xl font-bold text-gray-900">J-Network</h1>
+              <h1 className="text-xl font-bold text-gray-900">J</h1>
             </div>
-            <nav className="hidden md:flex space-x-4">
-              <a href="#" className="text-gray-900 px-3 py-2 rounded-md text-sm font-medium">Intra</a>
-              <a href="#" className="text-gray-500 hover:text-gray-900 px-3 py-2 rounded-md text-sm font-medium">Jay</a>
-            </nav>
           </div>
           
           <div className="flex items-center space-x-4">
